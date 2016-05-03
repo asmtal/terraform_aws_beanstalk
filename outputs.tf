@@ -6,10 +6,6 @@ output "elastic_beanstalk environment name" {
     value = "${aws_elastic_beanstalk_environment.eb_env_var.name}"
 }
 
-output "aws_elastic_beanstalk environment cname_prefix" {
-    value = "${aws_elastic_beanstalk_environment.eb_env_var.cname_prefix}"
-}
-
 output "aws_elastic_beanstalk environment tier" {
     value = "${aws_elastic_beanstalk_environment.eb_env_var.tier}"
 }

@@ -1,5 +1,5 @@
 output "application name" {
-    value = "${aws_elastic_beanstalk_application.name.eb_env_var.id}"
+    value = "${aws_elastic_beanstalk_application.eb_env_var.name}"
 }
 
 output "elastic_beanstalk environment name" {
